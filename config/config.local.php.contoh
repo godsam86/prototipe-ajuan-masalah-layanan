@@ -1,0 +1,13 @@
+<?php
+// Salin file ini menjadi config.local.php lalu sesuaikan.
+return [
+    'db' => [
+        'host' => '127.0.0.1',
+        'port' => 3306,
+        'name' => 'inlislite',
+        'user' => 'root',
+        'pass' => '',
+    ],
+    // 'base_url' => '/inlislite',
+    // 'debug' => true,
+];
